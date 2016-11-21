@@ -31,7 +31,7 @@ Repository name：zhangxingxingzxx.github.com
 
 访问地址：zhangxingxingzxx.github.io
 ------------------------------------------------------------------------
-新的表单特性和函数
+新的表单特性
     placeholder(占位符)：输入框提示信息 
     autocomplete(自动完成)="off"：是否保存用户输入值  
         默认为"on"，关闭提示选择'off'
@@ -39,4 +39,16 @@ Repository name：zhangxingxingzxx.github.com
     title:提示错误信息
     required(必须的)：此项必填，不能为空
     Pattern(模式)：正则验证
-    
+------------------------------------------------------------------------
+序列化：将json转出字符串  JSON.stringify(json)
+var json={a:12,b:5};
+var str=JSON.stringify(json);
+
+反序列化：将字符串转成json(字符串中json的格式必须标准)  
+
+          JSON.parse(str);
+
+window.onstorage=function(ev){
+    ev.key 改变的storage的名称
+}
+
