@@ -1,0 +1,26 @@
+创建文件：touch a.txt(文件名)
+
+编辑内容：1.vi a.txt
+          2.i
+          3.编辑
+          4.esc
+          5.:wq
+
+删除文件：rm a.txt
+
+新建文件夹：mkdir bbb(文件夹名称)
+
+删除文件夹：rmdir bbb
+
+进入文件夹：cd bbb
+
+跳出文件夹：cd ..
+
+跳转盘符：cd e:
+
+清屏：clear
+
+初始化目录：get init
+添加到本地的缓存区：get add .
+
+get commit -m '提交日志'
