@@ -20,7 +20,23 @@
 
 清屏：clear
 
-初始化目录：get init
-添加到本地的缓存区：get add .
+初始化目录：git init
+添加到本地的缓存区：git add .
 
 get commit -m '提交日志'
+
+https://github.com/zhangxingxingzxx/zxx.git
+------------------------------------------------------------------------
+Repository name：zhangxingxingzxx.github.com
+
+访问地址：zhangxingxingzxx.github.io
+------------------------------------------------------------------------
+新的表单特性和函数
+    placeholder(占位符)：输入框提示信息 
+    autocomplete(自动完成)="off"：是否保存用户输入值  
+        默认为"on"，关闭提示选择'off'
+    autofocus(自动对焦)：指定表单获取输入焦点
+    title:提示错误信息
+    required(必须的)：此项必填，不能为空
+    Pattern(模式)：正则验证
+    
